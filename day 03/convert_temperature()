@@ -1,0 +1,15 @@
+def Temp_conv(temp, unit):
+    test = unit.upper()
+    if test == "C":
+        p = (temp * 9/5) + 32
+        return p, "F"
+    elif test == "F":
+        q = (temp - 32) * 5/9
+        return q, "C"
+    else: 
+        return "Invalid unit. Please use 'C' for Celsius or 'F' for Fahrenheit."
+t = float(input("Enter the temperature: "))
+u = input("Enter the unit (C/F): ")
+conv_temp, conv_unit = Temp_conv(t, u)
+print(f"The converted temperature is: {conv_temp}")
+print(f"The converted unit is: {conv_unit}")

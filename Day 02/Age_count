@@ -1,0 +1,4 @@
+age = input("Enter Your age is: ")
+print(type(age))
+y = int(age) + 1
+print(f"Your age is: {y}")

@@ -1,0 +1,9 @@
+a = int(input("Enter your value for a: "))
+b = float(input("Enter your value for b: "))
+c = str(input("Enter your value for c: "))
+d = bool(input("Enter your value for d: "))
+print(f"a: {a} (type: {type(a)})")
+print(f"b: {b} (type: {type(b)})")
+print(f"c: {c} (type: {type(c)})")
+print(f"d: {d} (type: {type(d)})")
+

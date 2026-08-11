@@ -1,0 +1,8 @@
+a, b, c = input("Enter your three numbers are: ").split()
+a = int(a)
+b = int(b)
+c = int(c)
+max_num = max(a, b, c)
+min_num = min(a, b, c)
+print(f"Maximum number is: {max_num}")
+print(f"Minimum number is: {min_num}")

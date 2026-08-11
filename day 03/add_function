@@ -1,0 +1,9 @@
+def add(a, b):
+    result = a + b
+    return result
+answer = add(6, 8)
+print(f"Your answer is : {answer}")
+x = int(input("Enter any 1st number: "))
+y = int(input("Enter any 2nd number: "))
+result = add(x, y)
+print(f"The sum of {x} and {y} is: {result}")

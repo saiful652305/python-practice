@@ -1,0 +1,6 @@
+def Annual_Salary(pay, hours):
+    return pay * hours * 52
+pay_rate = float(input("Enter the hourly pay rate: "))
+weekly_hours = float(input("Enter the number of hours worked per week: "))
+annual_salary = Annual_Salary(pay_rate, weekly_hours)
+print(f"The annual salary is: ${annual_salary:.2f}")

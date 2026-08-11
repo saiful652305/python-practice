@@ -1,0 +1,7 @@
+def tax_rate(income, rate):
+    tax = income * rate/100
+    return tax
+a = float(input("Enter your income: "))
+b = float(input("Enter the tax rate (in %): "))
+result = tax_rate(a, b)
+print(f"The tax amount is: {result: .2f}")

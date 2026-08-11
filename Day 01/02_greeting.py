@@ -1,0 +1,6 @@
+name=input("What is your name? ")
+print(f"My name is {name}")
+print(f"My name is {name.upper()}")
+print(f"My name is {name.lower()}")
+print(f"Hello {name} nice to meet with you!")
+print(f"Welcome {name} to the Python world!")

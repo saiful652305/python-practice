@@ -1,0 +1,4 @@
+x = float(input("Enter your number: "))
+y = int(x)
+z = int(y + 5)
+print(f"Your number is : {z}")

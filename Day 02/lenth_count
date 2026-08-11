@@ -1,0 +1,6 @@
+name = input("Enter your name: ")
+x = len(name)
+print(f"Your name with all spaces is : {name} and the length of your name is : {x}")
+g = name.replace("s", "p")
+x = len(g)
+print(f"The length of the name {g} is: {x}")
