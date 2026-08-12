@@ -1,0 +1,6 @@
+name = input("Name: ").strip().title()
+print(f"{'My name':<13}: {name}\n")
+print(f"{'My name':<13}: {name}\n")
+print(f"{'My name':<13}: {name}\n")
+print(f"{'My name':<13}: {name}\n")
+print(f"{'My name':<13}: {name}\n")

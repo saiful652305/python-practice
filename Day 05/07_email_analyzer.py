@@ -1,0 +1,6 @@
+email = input("Enter your email: ").strip().lower()
+print(f"\n-------Profile----------\n")
+print(f"{'Email':<16}: {email}")
+username, domain = email.split("@")
+print(f"{'Username':<16}: {username}")
+print(f"{'Domain':<16}: {domain}")

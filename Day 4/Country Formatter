@@ -1,0 +1,3 @@
+country = input("Enter your contry name: ")
+x = country.upper()
+print(f"Your country name is: {x}")

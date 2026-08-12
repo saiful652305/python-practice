@@ -1,0 +1,5 @@
+name = input("Enter your name: ").strip().title()
+print(f"{'Clean name is':<16}: {name}")
+p = name.split()
+print(f"{'Words':<16}: {p}")
+print(f"{'Words count':<16}: {len(p)}")

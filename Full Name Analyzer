@@ -1,0 +1,6 @@
+name = input("Enter your full name: ").strip().title()
+print(f"Your full name is: {name}")
+x = name.split()
+y = len(x)
+print(f"Name parts: {x}")
+print(f"Total parts: {y}")

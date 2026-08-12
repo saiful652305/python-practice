@@ -1,0 +1,4 @@
+sentence = input("Give your sentence:")
+x = sentence.split()
+y = len(x)
+print(f"the total number of words in your sentence is: {y} and the words are: {x}")

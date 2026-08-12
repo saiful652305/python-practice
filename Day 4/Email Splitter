@@ -1,0 +1,3 @@
+email = input("Enter your valid email address: ").strip().lower()
+username, domain = email.split("@")
+print(f"User name is: {username} and domain name is: {domain}")

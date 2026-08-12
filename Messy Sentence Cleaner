@@ -1,0 +1,6 @@
+sentence = input("Enter your sentence: ").strip().title()
+print(f"output: {sentence}")
+x = sentence.split()
+y = len(x)
+print(f"words: {x}")
+print(f"words count: {y}")

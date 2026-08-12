@@ -1,0 +1,3 @@
+date = input("Enter your date: ").strip()
+day, month, year = date.split("-")
+print(f"The date is: day: {day}, month: {month}, year: {year}")
