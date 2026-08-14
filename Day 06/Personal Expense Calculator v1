@@ -1,0 +1,28 @@
+def monthly_expenses(rent, food, transport, other):
+               monthly_expense = rent + food + transport + other
+               return monthly_expense
+name = input("Enter Name: ").strip().title()
+monthly_salary = float(input("Enter monthly salary: "))
+annual_salary = monthly_salary * 12
+rent = float(input("Enter rent: "))
+food = float(input("Enter food expense: "))
+transport = float(input("Enter transportation expense: "))
+other_expense = float(input("Enter other expense: "))
+r = monthly_expenses(rent, food, transport, other_expense)
+annual_expenses = r * 12
+annual_saving = annual_salary - annual_expenses
+if monthly_salary != 0.0:
+    saving_percentage = (annual_saving / annual_salary) * 100
+else:
+    saving_percentage = 0
+print(f"\n\n-----Saiful's MONTHLY EXPENSE REPORT -----\n\n")
+print(f"{'Name':<15}: {name}")
+print(f"{'Monthly salary':<15}: {monthly_salary}")
+print(f"{'Rent':<15}: {rent}")
+print(f"{'Food':<15}: {food}")
+print(f"{'Transportation':<15}: {transport}")
+print(f"{'Other expenses':<15}: {other_expense}")
+print(f"{'Monthly expenses':<15}: {r}")
+print(f"{'Total Expenditure':<15}: {annual_expenses}")
+print(f"{'Annual Saving':<15}: {annual_saving}")
+print(f"{'Saving percentage':<15}: {saving_percentage}")
