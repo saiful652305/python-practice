@@ -1,0 +1,16 @@
+marks = float(input("Enter marks: "))
+
+if marks >= 0 and marks <= 100:
+    if marks >=90:
+        print(f"Grade letter is A")
+    elif marks >= 80:
+        print(f"Grade letter is B")
+    elif marks >= 70:
+        print(f"Grade letter is C")
+    elif marks >= 60:
+        print(f"Grade letter is D")
+    else:
+        print(f"Grade letter is Fail")
+# grade decision এখানে
+else:
+    print("Invalid marks")

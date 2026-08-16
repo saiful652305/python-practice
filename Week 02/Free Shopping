@@ -1,0 +1,9 @@
+purchage = int(input("Enter purchage amount: $"))
+premium_member = input("Are you a premium member? yes/no: ").strip().lower()
+
+if premium_member == "yes" and purchage >= 100:
+    print("Free shopping")
+else:
+    print("Charges apply")
+
+    

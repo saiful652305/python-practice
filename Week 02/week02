@@ -1,0 +1,6 @@
+print(20 > 10)
+print(20 < 10)
+print(20 == 20)
+print(20 != 20)
+print(20 >= 20)
+print(19 <= 20)

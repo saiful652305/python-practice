@@ -1,0 +1,7 @@
+age = int(input("Enter age: "))
+education = input("Enter Education: ").strip().lower()
+
+if age >= 18 and education == "graduate":
+    print("Eligible To apply")
+else:
+    print("Not eligible to apply")    

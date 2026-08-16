@@ -1,0 +1,12 @@
+gpa = float(input("Enter GPA: "))
+ielts = float(input("Enter IELTS score: "))
+
+if gpa >= 3.0:
+    if ielts >= 6.5:
+          print(f"Congratulations...you are admitted..! You have met the admission requirement successfully.")
+    else: 
+          print(f"Your IELTS score is not sufficient") 
+          print(f"Admission is not possible") 
+else: 
+    print(f"Your GPA is not enough") 
+    print(f"Admission is not possible")

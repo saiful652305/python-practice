@@ -1,0 +1,43 @@
+employee_name = input("Enter Employee name: ").strip().title()
+monthly_salary = float(input("Enter your monthly salary: "))
+years_service = int(input("Enter service year: "))
+performance = input("Enter performance category: ").strip()
+
+if years_service >= 5:
+    if performance == "excellent":
+       bonus_rate = 15
+       bonus = (monthly_salary * 15)/100
+       print(f"Bonus amount: {bonus}")
+       total_salary = bonus + monthly_salary
+       print(f"Total salary is: {total_salary}")
+    elif performance == "good":
+       bonus_rate = 10
+       bonus = (monthly_salary * 10)/100
+       print(f"Bonus amount: {bonus}")
+       total_salary = bonus + monthly_salary
+       print(f"Total salary is: {total_salary}")   
+    elif performance == "otherwise":
+        bonus_rate = 5
+        bonus = (monthly_salary * 5)/100
+        print(f"Bonus amount: {bonus}")
+        total_salary = bonus + monthly_salary
+        print(f"Total salary is: {total_salary}") 
+    else:
+        bonus_rate = 0
+        bonus = (monthly_salary * 0)/100
+        print(f"Bonus amount: {bonus}")
+        print(f"Performance is not up to date and no bonus is allowed..!")
+else:
+    print(f"Service year is less than 5 years...!")
+
+
+print(f"\n\n---------- Bonus Report ----------\n\n")
+
+print(f"Name          : {employee_name}")
+print(f"Salary        : {monthly_salary}")
+print(f"Service       : {years_service}")
+print(f"Performance   : {performance}")
+print(f"Bonus Rate    : {bonus_rate}%")
+print(f"Bonus Amount  : {bonus}")
+print(f"Total salary  : { total_salary}")
+

@@ -1,0 +1,13 @@
+a = float(input("Enter a: "))
+b = float(input("Enter b: "))
+c = float(input("Enter c: "))
+
+if a >= b:
+    if a >= c:
+          print(f"The value of a ({a}) is largest..!")
+    else: 
+          print(f"The value of c ({c}) is largest..!") 
+elif b >= c:
+    print(f"The value of b ({b})is largest..!") 
+else: 
+    print(f"The value of c ({c}) is leargest--!")   

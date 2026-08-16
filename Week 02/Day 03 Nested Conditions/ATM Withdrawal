@@ -1,0 +1,17 @@
+balance = float(input("Enter Balance amount: "))
+withdraw = float(input("Enter withdraw amount: "))
+#income = float(input("Enter monthly income: "))
+#credit_score = int(input("Enter credit score: "))
+#employment = input("Are you currently employed? yes/no: ").strip().lower()
+if withdraw >= 0:
+    if balance >= withdraw:
+          balance = balance - withdraw
+          print("Withdrawal successful")
+          print(f"Remaining balance: {balance:.2f}")
+    else: 
+          printf(f"Withdrawl unsuccessful") 
+else: 
+    print(f"Invalid withdraw")          
+
+#print("Withdrawal successful")
+#print(f"Remaining balance: {balance:.2f}")

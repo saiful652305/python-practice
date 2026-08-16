@@ -1,0 +1,27 @@
+name = input("Enter name: ").strip().title()
+age = int(input("Enter age: "))
+income = float(input("Enter monthly income: "))
+credit_score = int(input("Enter credit score: "))
+employment = input("Are you currently employed? yes/no: ").strip().lower()
+
+if age >= 21 and age <= 60 and income >= 30000 and credit_score >= 650 and employment == "yes":
+    status = "ELIGIBLE"
+else: 
+    status = "log in ineligible"
+
+print(f"\n\n---------LOG IN ELIGIBLE REPORT---------------\n\n")
+
+#print(f"{'Name':<20}: {name}")
+#print(f"{'Age':<20}: {age}")
+#print(f"{'Monthly Income':<20}: {income}")
+#print(f"{'Credit score':<20}: {credit_score}")
+#print(f"{'Currently Employed':<20}: {employment}")
+#print(f"{'Status':<20}: {status}")
+
+print("\n---------- Loan Eligibility Report ----------")
+print(f"Name           : {name}")
+print(f"Age            : {age}")
+print(f"Monthly Income : {income:.2f}")
+print(f"Credit Score   : {credit_score}")
+print(f"Employment     : {employment.title()}")
+print(f"Status         : {status}")

@@ -1,0 +1,7 @@
+username = input("Username: ").strip()
+password = input("Password: ").strip()
+
+if username == "saiful" and password == "python123":
+    print("Login successful")
+else:
+    print("Invalid username or password")
